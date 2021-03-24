@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="assets/icon/css/font-awesome.min.css">
+	<style>
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			height: 550px;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+			/*background: #000;*/
+		}
+		ul li{
+			margin-left: 20px;
+			height: 100px;
+			width: 100px;
+			background: #c7c7c7;
+			line-height: 100px;
+			text-align: center;
+			transition: 1s all ease-in;
+		}
+		ul li a{
+			padding: 20px;
+			font-size: 30px;
+			transition: 1s all ease-in;
+		}
+		ul li:first-child:hover{
+			border-radius: 50%;
+			background: #38529A;
+			transition: 1s all ease-in;
+			transform: rotate(360deg);
+		}
+		ul li:nth-child(2):hover{
+			border-radius: 50%;
+			background: #ff0000;
+			transition: 1s all ease-in;
+			transform: rotate(360deg);
+		}
+		ul li:last-child:hover{
+			border-radius: 50%;
+			background: #00ccff;
+			transition: 1s all ease-in;
+			transform: rotate(360deg);
+		}
+		ul li:first-child:hover a{
+			color: #fff;
+			transition: 1s ease-in;
+		}
+		ul li:nth-child(2):hover a{
+			color: #fff;
+			transition: 1s ease-in;
+		}
+		ul li:first-child{
+			margin: 0;
+		}
+		ul li:last-child:hover a{
+			color: #fff;
+			transition: 1s ease-in;
+		}
+		ul li a:focus{
+			color: #0000ff;
+			background: #ff0000;
+			border-radius: 50%;
+			transition: 2s all ease-in;
+		}
+		/*ul li a:active{
+			color: #0000ff;
+			background: #ff0000;
+			border-radius: 50%;
+			transition: 2s all ease-in;
+		}*/
+		a{
+			text-decoration: none;
+		}
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+		<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+	</ul>
+</body>
+</html>
