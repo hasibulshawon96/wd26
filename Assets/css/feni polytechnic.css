@@ -1,0 +1,130 @@
+/*topbar css-topbar size and color*/
+.topbar{
+	background-color: #301b3f;
+	border: 1px solid #26001b;
+	border-bottom: 2px solid #26001b;
+	height: 60px;
+	width: 100%;
+	padding: 2px;
+
+
+}
+/*container css-call icon, number, mail, search bar*/
+@media (min-width: 768px){
+	.container{
+		width: auto!important;
+	}
+}
+.container{
+	margin-right:auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+.topbar-left{
+	display: inline-flex;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+@media (min-width: 768px){
+	.topbar-left li{
+		margin-right: 50px;
+	}
+}
+.topbar-left li{
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+	vertical-align: center;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.topbar-left li i{
+	padding-right: 8px;
+}
+.topbar-left i{
+	color: rgba(255,255,255,0.7);
+	font-size: 22px;
+	vertical-align: text-bottom;
+}
+.topbar-left li:last-child{
+	margin-right: 0;
+}
+.topbar-left li a{
+	color: white;
+}
+ul .topbar-right{
+	float: right;
+}
+ul .topbar-right li:first-child{
+	margin-left: 0;
+}
+ul .topbar-right li{
+	display: inline-block;
+	margin-right: 18px;
+	font-size: 16px;
+	color: rgba(255,255,255,0.7);
+	position: relative;
+}
+@media (min-width: 768px){
+	li .top-search{
+		padding-left: 15px;
+		border-left: 1px solid rgba(255,255,255,0.5)
+	}
+}
+li .top-search{
+		padding-left: 15px;
+		border-left: 1px solid rgba(255,255,255,0.5)
+	}
+	.list-inline{
+		margin-left: 0;
+	}
+	.topbar-right a{
+		display: inline-block;
+		color: rgba(255,255,255,0.7);
+		text-decoration: none;
+		transition-property: color;
+		transition-duration: 0.3s;
+		transition-timing-function: ease;
+		transition-delay: 0s;
+	}
+	.topbar-right i{
+		position: absolute;
+		margin-left: 1260px;
+		margin-top: -55px;
+	}
+@media (min-width: 768px){
+		li .top-search ul .dropdown-menu{
+        width: 350px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        right: 0;
+		}
+	}
+	li .top-search ul .dropdown-menu{
+		width: 250px;
+		min-width: 200px;
+		padding-top: 10px;
+		padding-right: 5px;
+		padding-bottom: 10px;
+		padding-left: 5px;
+		margin-top: 2px;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		right: 100%
+	}
